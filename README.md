@@ -1,89 +1,125 @@
-# 🛒 Amazon Product Analysis Dashboard | Power BI
+# 📊 Amazon Product Sales Analysis Dashboard
 
-An interactive **Amazon Product Analysis Dashboard** developed using **Microsoft Power BI** to analyze product performance, sales-related metrics, ratings, reviews, and business trends.
+An interactive **Amazon Product Sales Analysis Dashboard** developed using **Microsoft Power BI** to analyze sales performance, product categories, customer reviews, and sales trends.
 
-## 📊 Project Overview
+The project transforms raw Amazon product data into meaningful business insights through interactive visualizations, KPIs, and filters.
 
-This project transforms Amazon product data into an interactive business intelligence dashboard.
+---
 
-The dashboard helps users understand:
+## 🎯 Project Objective
 
-* Product performance
-* Sales and revenue-related trends
-* Customer ratings
-* Review patterns
-* Category performance
-* Product-level comparisons
-* Key business insights
+The main objective of this project is to analyze Amazon product sales data and build an interactive dashboard that helps users:
 
-## 🛠️ Tools & Technologies
+- Monitor overall sales performance
+- Analyze monthly and weekly sales trends
+- Compare product categories
+- Identify top-performing products
+- Analyze customer review performance
+- Understand category-wise contribution to sales
+- Interactively explore the data using filters
 
-* **Microsoft Power BI**
-* **Power Query**
-* **DAX**
-* **Data Cleaning & Transformation**
-* **Data Visualization**
-* **Business Intelligence**
+---
+
+## 📌 Dashboard Overview
+
+The dashboard provides a comprehensive view of Amazon product performance through key performance indicators and interactive charts.
+
+### 🔑 Key Performance Indicators
+
+| Metric | Value |
+|---|---:|
+| 💰 YTD Sales | **$2.18M** |
+| 💵 QTD Sales | **$811.09K** |
+| 📦 YTD Products Sold | **27.75K** |
+| ⭐ YTD Reviews | **19.42M** |
+
+---
 
 ## 📈 Dashboard Features
 
-### 🔹 Product Analysis
+### 1. Sales Trend Analysis
 
-Analyze products based on important performance indicators and compare different products.
+- Monthly sales analysis
+- Weekly sales analysis
+- Year-to-Date (YTD) sales
+- Quarter-to-Date (QTD) sales
+- Identification of sales growth patterns
 
-### 🔹 Sales & Performance Analysis
+### 2. Product Category Analysis
 
-Identify trends and patterns across products and categories.
+The dashboard compares sales performance across different categories, including:
 
-### 🔹 Customer Reviews & Ratings
+- Men Shoes
+- Camera
+- Men Clothes
+- Car Accessories
+- Toys
+- Mobile & Accessories
 
-Analyze customer ratings and review-related metrics to understand customer response.
+It also provides:
 
-### 🔹 Interactive Dashboard
+- YTD Sales
+- QTD Sales
+- Percentage contribution to total sales
 
-Use Power BI filters and visualizations to explore the data dynamically.
+### 3. Top Product Analysis
 
-## 🔍 Key Skills Demonstrated
+The dashboard identifies the:
 
-* Data Cleaning
-* Data Transformation
-* Data Modeling
-* DAX Measures
-* KPI Development
-* Interactive Dashboard Design
-* Business Data Analysis
-* Data Visualization
-* Business Intelligence
+- **Top 5 products by YTD Sales**
+- **Top 5 products by YTD Reviews**
 
-## 📷 Dashboard Preview
+This helps highlight products with strong sales performance and customer engagement.
 
-> Add screenshots of the Power BI dashboard here.
+### 4. Interactive Filters
 
-![Amazon Product Analysis Dashboard](assets/dashboard-preview.png)
+Users can dynamically explore the dashboard using:
 
-## 📁 Project Files
+- Product Category
+- Quarter
 
-| File                           | Description                 |
-| ------------------------------ | --------------------------- |
-| `Amazon Product Analysis.pbix` | Complete Power BI dashboard |
-| `screenshots/`                 | Dashboard screenshots       |
-| `assets/`                      | Images used in the README   |
+---
 
-## 🎯 Business Objective
+## 🛠️ Tools & Technologies
 
-The objective of this project is to convert raw Amazon product data into meaningful visual insights that can support product performance analysis and data-driven business decisions.
+- **Microsoft Power BI**
+- **Power Query**
+- **DAX**
+- **Data Cleaning**
+- **Data Transformation**
+- **Data Modeling**
+- **Data Visualization**
+- **Business Intelligence**
 
-## 🚀 Future Improvements
+---
 
-* Add more advanced DAX measures
-* Include time-series analysis
-* Add customer segmentation
-* Add profitability analysis
-* Connect the dashboard to a live data source
-* Publish the dashboard through Power BI Service
+## 🔍 Key Insights
 
-## 👨‍💻 Author
+Some of the insights obtained from the dashboard include:
 
-**Sumer Rajput**
+- **Men Shoes** is the highest-performing category by YTD sales.
+- **Camera** is the second-largest contributor to YTD sales.
+- Sales increase significantly during the later months of the year.
+- A relatively small number of products contribute substantially to overall sales.
+- Customer review volumes vary considerably across products.
+- Category-level analysis helps identify the major contributors to total sales.
 
-AI & Data Science | Data Analytics | Machine Learning | Power BI | SQL
+---
+
+## 🖼️ Dashboard Preview
+
+![Amazon Product Sales Analysis Dashboard](screenshots/amazon-sales-dashboard.png)
+
+---
+
+## 📂 Repository Structure
+
+```text
+amazon-product-sales-analysis-powerbi/
+│
+├── README.md
+│
+├── Amazon Product Analysis.pbix
+│
+└── screenshots/
+    └── amazon-sales-dashboard.png
