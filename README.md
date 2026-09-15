@@ -123,3 +123,17 @@ amazon-product-sales-analysis-powerbi/
 │
 └── screenshots/
     └── amazon-sales-dashboard.png
+```
+
+## 🚀 Future Improvements
+
+- Add profit and margin analysis
+- Add year-over-year growth analysis
+- Add forecasting
+- Connect the dashboard to a live/automated data source
+
+## 👨‍💻 Author
+
+**Sumer Rajput**
+
+AI & Data Science | Data Analytics | Power BI | SQL | Machine Learning
